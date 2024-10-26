@@ -31,19 +31,19 @@ class Predator(Animal):  # Хищник
 # edible = False(съедобность),
 # name - индивидуальное название каждого растения
 class Plant:
-    edible = False  # adible (съедобность)
+    edible = False      # edible (съедобность)
 
     def __init__(self, name):
         self.name = name
 
 
 class Fruit(Plant):
-    edible = True  # (переопределить при наследовании), edible (съедобность)
+    edible = True      # (переопределить при наследовании), edible (съедобность)
 
 
 class Flower(Plant):
-    edible = False
-    pass  # (переопределить при наследовании), edible (съедобность)
+    edible = False     # (переопределить при наследовании), edible (съедобность)
+     
 
 
 a1 = Predator('Волк с Уолл-Стрит')
